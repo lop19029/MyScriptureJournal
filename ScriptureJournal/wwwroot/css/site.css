@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@300&family=Roboto+Serif&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+blockquote {
+    margin-top: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-size: x-large;
+    color: #3c3c3c;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+quote-author {
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="submit"], li{
+    margin: 7px;
+}
